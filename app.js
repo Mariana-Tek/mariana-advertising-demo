@@ -18,10 +18,8 @@ nunjucks.configure(path.join(__dirname, 'templates'), {
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    const userID = req.query.user_id;
     const context = {
-        userID: userID,
-        imageURL: `https://via.placeholder.com/640x480.png?text=${userID}`
+        exampleURL: `${baseURL}/ad-example`,
     };
 
     res.render('index.html', context);

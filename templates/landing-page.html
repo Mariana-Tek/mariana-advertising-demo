@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Landing Page{% if user_id %} for User {{ user_id }}{% endif %}</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        {% if user_id %}
+        <h1>Hello, {{ user_id }}!</h1>
+        <p>Add some copy here specifically targeting user {{ user_id }}.</p>
+        {% else %}
+        <h1>Hello!</h1>
+        <p>Add some copy here targeting anonymous users.</p>
+        {% endif %}
+        {% if is_showcase_user %}
+        <p>Add some copy here since they're a <em>showcase</em> user as well.</p>
+        {% endif %}
+    </body>
+</html>

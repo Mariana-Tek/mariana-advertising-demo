@@ -1,0 +1,14 @@
+{
+  "name": "Mariana Advertising Demo",
+  "description": "A simple example of how to use the Mariana Tek Advertising API.",
+  "repository": "https://github.com/mariana-tek/mariana-advertising-demo",
+  "logo": "https://mariana-advertising-demo.herokuapp.com/mariana-logo.svg",
+  "keywords": ["Mariana", "Tek"],
+  "env":{},
+  "addons":[],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

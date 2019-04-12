@@ -1,17 +1,17 @@
-.container { max-width: 960px; }
-.border-top { border-top: 1px solid #e5e5e5; }
-.border-bottom { border-bottom: 1px solid #e5e5e5; } .border-top-gray { border-top-color: #adb5bd; }
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-.lh-condensed { line-height: 1.25; }
+.container {
+    max-width: 960px;
+}
 
 .ad {
     height: 100%;
     background-image: linear-gradient(45deg, #bec5cc 16.67%, #ffffff 16.67%, #ffffff 50%, #bec5cc 50%, #bec5cc 66.67%, #ffffff 66.67%, #ffffff 100%);
     background-size: 4.24px 4.24px;
 }
+
 .ad__label {
     position: absolute;
 }
+
 .ad__container {
     max-width: 300px;
     width: 100%;
@@ -19,11 +19,16 @@
     padding-bottom: 83.3333333%;
     z-index: 1;
 }
+
 .ad__container img {
     width: 100%;
 }
 
-/* Spinner by: https://projects.lukehaas.me/css-loaders/ */
+
+/*!
+ * Loader by: https://projects.lukehaas.me/css-loaders/
+ */
+
 .loader,
 .loader:before,
 .loader:after {
@@ -33,6 +38,7 @@
     width: 1em;
     height: 4em;
 }
+
 .loader {
     color: #ffffff;
     text-indent: -9999em;
@@ -45,20 +51,24 @@
     -webkit-animation-delay: -0.16s;
     animation-delay: -0.16s;
 }
+
 .loader:before,
 .loader:after {
     position: absolute;
     top: 0;
     content: '';
 }
+
 .loader:before {
     left: -1.5em;
     -webkit-animation-delay: -0.32s;
     animation-delay: -0.32s;
 }
+
 .loader:after {
     left: 1.5em;
 }
+
 @-webkit-keyframes load1 {
     0%,
     80%,
@@ -71,6 +81,7 @@
         height: 5em;
     }
 }
+
 @keyframes load1 {
     0%,
     80%,

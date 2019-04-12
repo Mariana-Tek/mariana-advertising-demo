@@ -8,7 +8,7 @@
     "dev": "nodemon -e js,html server.js"
   },
   "author": "Mariana Tek",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",

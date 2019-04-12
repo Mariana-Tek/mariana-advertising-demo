@@ -5,6 +5,7 @@ A simple example of how to use the Mariana Tek Advertising API.
 
 ## System Dependencies
 - Node.js v10.15
+- nvm
 
 ## Installation
 ```bash
@@ -14,5 +15,6 @@ $ npm install
 
 ## Local Development
 ```bash
+$ nvm use
 $ npm run dev
 ```

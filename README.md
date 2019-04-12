@@ -1,8 +1,17 @@
-# mariana-advertising-mock
+# Mariana Advertising Demo
 
+A simple example of how to use the Mariana Tek Advertising API.
 
-## installation
-```bash 
+## System Dependencies
+- Node.js v10.15
+
+## Installation
+```bash
 $ nvm install
 $ npm install
+```
+
+## Local Development
+```bash
+$ npm run dev
 ```

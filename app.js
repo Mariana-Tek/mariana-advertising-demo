@@ -40,12 +40,11 @@ app.post('/', (req, res) => {
 
     // the following is required
 
-    // const adData = {
-    //     image_url: imageURL,
-    //     redirect_url: redirectURL
-    // };
+    const adData = {
+        image_url: imageURL,
+        redirect_url: redirectURL
+    };
 
-    const adData = {this_is: "wrong"};
     res.send(adData);
 });
 

@@ -80,7 +80,7 @@ app.post('/ad', (req, res) => {
         color = colors.showcase;
     }
 
-    const imageURL = `https://via.placeholder.com/320x100/${color}/FFFFFF.png?text=${encodeURI(`Ad for ${user}`)}`;
+    const imageURL = `https://via.placeholder.com/1200x628/${color}/FFFFFF.png?text=${encodeURI(`Ad for ${user}`)}`;
     let redirectURL = `${baseURL}/landing-page`;
 
     // By adding the user_id as a query parameter in the redirect url here,
